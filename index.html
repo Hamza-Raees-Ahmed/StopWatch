@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    h1{display: inline-block; width: 100px;}
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <h2 >Stop Watch</h2>
+</center>
+    <div>
+        <center>
+        <h1 id="hour">0</h1>
+        <h1>:</h1>
+        <h1 id="min">0</h1>
+        <h1>:</h1>
+        <h1 id="sec">0</h1>
+        <h1>:</h1>
+        <h1 id="msec">0</h1>
+        <br>
+        <br>
+        <button style="width: 80px; font-size: medium; height: 35px; border-radius: 7px; color: white; background-color: rgb(93, 171, 212);" onclick="start()" id="start">Start</button>
+        <button style="width: 80px; font-size: medium; height: 35px; border-radius: 7px; color: white; background-color: rgb(252, 28, 28);" onclick="stop()" id="stop">Stop</button>
+        <button style="width: 80px; font-size: medium; height: 35px; border-radius: 7px; color: white; background-color: blueviolet; " onclick="reset()" id="reset">Reset</button>
+    </center>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
